@@ -3,6 +3,9 @@ Hey all, Good to see you again, This is professor OAK-- ahem sorry my bad..  Thi
 In this project, I demonstrate how a 16×2 LCD display can be connected with an ESP32 microcontroller and enhanced using Gemini Vertex AI to fetch intelligent, real-time content from the internet. I want to show you how the AI can be used with embedded system like the ESP32. This tutorial covers everything from API generation to hardware wiring and code optimization.
 ___
 
+<img width="491" height="250" alt="Screenshot 2026-01-27 191419" src="https://github.com/user-attachments/assets/dd9a9a51-6d64-4d9c-b503-0334d9e398bd" />
+___
+
 <h3>1. The AI Integration (Gemini 1.5 Flash)</h3>
 
 The journey begins with the creation of a secure API key using Google Gemini Vertex AI. This key acts as the bridge between the ESP32 and the AI service. Once generated, it is integrated directly into the ESP32 firmware using the official x-goog-api-key request header. This ensures a stable and authenticated connection when communicating with the Gemini endpoint, bypassing common security rejections.
